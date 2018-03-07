@@ -30,7 +30,7 @@ A 3-4 sentence self-critique memo of your project and your progress in class to 
 * HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries.
 * Must pass HTML and CSS validators!
 # HTML requirements:
-Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
+* Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
 * Valid HTML form elements, written in conjunction with <label> tags and the for attribute.
 * Semantically structured text-based HTML content to accompany any media elements (image, audio, video)
 # CSS requirements:
