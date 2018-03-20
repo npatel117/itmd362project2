@@ -68,8 +68,26 @@ the user experience.
   * User must scroll through a lot of unnecessary information if they need information in a section at the bottom
   * Too much text, especially on mobile
 
+## Page-by-Page Tasks
 
+This section lists improvement to be made for each page to address the problems encountered during each user process above. 
 
+### 1. Home page ("Calendar")
+  * Remove tables and replace with a mobile-friendly calendar view. Click on a date to view that date's topic, readings, and any assignments due
+  * Include links to GitHub for labs and to the "Projects" page for projects. This might mean that labs need to be added to the projects page to form an "Assignments" page. 
+
+### 2. Projects page
+  * Make projects collapsable and expandable
+  * Make inner project information collapsable and expandable 
+  * Include dates on deliverables. Yes, this will be slightly redundant, but in a useful way, not in an obtrusive way. 
+  * Similarly, include a link to the class GitHub and Basecamp at the top. 
+  
+### 3. Syllabus
+  * Make all sections collapsable and expandable to reduce the large amount of text users have to scroll through.
+  * Rearrange the order of some sections. For example, put the class day/time/location at the top of the page rather than buried in the middle. 
+  * Include links for the textbooks
+  * Remove essentially empty sections like "Quizzes", "Examinations", etc. 
+  * Remove table for "grading" section and replace with a mobile-friendly way to display the data
 
 
 
