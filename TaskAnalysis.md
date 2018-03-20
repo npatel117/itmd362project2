@@ -88,6 +88,13 @@ This section lists improvement to be made for each page to address the problems 
   * Include links for the textbooks
   * Remove essentially empty sections like "Quizzes", "Examinations", etc. 
   * Remove table for "grading" section and replace with a mobile-friendly way to display the data
+  
+## General Site Notes:
+  * The color scheme is effective but dull, let's brighten it up
+  * The site is very blocky and rectangular, we could try using color or some rounded edges to soften it up
+  * Many parts of the website are not as mobile-friendly as they could or should be, we need to develop it mobile-first
+  * The site is screaming for more functionality. For example, adding due dates to a personal calendar. Let's think of more ways we can make the site USEful, not just a text resource. 
+  * The links section is good but there is so much more we could add. For example, the Google color theory website. 
 
 
 
