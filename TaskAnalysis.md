@@ -96,6 +96,8 @@ This section lists improvement to be made for each page to address the problems 
   * The site is screaming for more functionality. For example, adding due dates to a personal calendar. Let's think of more ways we can make the site USEful, not just a text resource. 
   * The links section is good but there is so much more we could add. For example, the Google color theory website. 
 
+  
+**This task-analysis is a living document. Things may be added from time-to-time or marked as complete.**
 
 
 
