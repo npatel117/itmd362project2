@@ -94,6 +94,8 @@ This section lists improvement to be made for each page to address the problems 
   * The site is very blocky and rectangular, we could try using color or some rounded edges to soften it up
   * Many parts of the website are not as mobile-friendly as they could or should be, we need to develop it mobile-first
   * The site is screaming for more functionality. For example, adding due dates to a personal calendar. Let's think of more ways we can make the site USEful, not just a text resource. 
+  * Make a mobile friendly calendar that allows student to add the option to set reminders so that you don't miss assignments and due dates.
+  * Allow the students to link the calendar to their own calendar and get automatic updates to any changes that are made.
   * The links section is good but there is so much more we could add. For example, the Google color theory website. 
 
   
