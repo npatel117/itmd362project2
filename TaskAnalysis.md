@@ -18,6 +18,6 @@ This section outlines the steps a user must take in order to achieve the goals l
 the user experience. 
 
 1. Check lab and project due dates: 
-  * 1. Open web browser
+  1. Open web browser
   * 2. Enter URL
   * 3. Scroll down past "Topic Schedule" to find "Homework Schedule" (about 3/4 down the page). 
