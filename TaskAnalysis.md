@@ -18,12 +18,12 @@ is the most frequent/common goal to the least frequent/common goal.
 This section outlines the steps a user must take in order to achieve the goals listed above. This will be used to identify areas where we can improve
 the user experience.
 
-1. Check lab and project due dates: 
+### 1. Check lab and project due dates: 
   * Open web browser
   * Enter URL
   * Scroll down past "Topic Schedule" to find "Homework Schedule" (about 3/4 down the page) 
   
-Problems encountered: 
+#### Problems encountered: 
   * Due dates are just in a table, no links to lab or project descriptions or option to add to personal calendar 
   * Page navigation doesn't stay at the top of the screen 
   * The tables are not mobile-friendly; it's annoying to scroll through them on a phone
