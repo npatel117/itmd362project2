@@ -1,6 +1,6 @@
 # Task Analysis
 
-Team Cake: Deborah Barndt, Sarah Holland, and Kyle Mahoney
+Team Cake: Deborah Barndt, Sarah Holland, Kyle Mahoney, and Nihar Patel
 
 ## User Goals
 
