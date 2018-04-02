@@ -1,6 +1,6 @@
 # Task Analysis
 
-Team Cake: Deborah Barndt, Sarah Holland, and Kyle Mahoney
+Team Cake: Deborah Barndt, Sarah Holland, Kyle Mahoney, and Nihar Patel
 
 ## User Goals
 
@@ -51,7 +51,7 @@ the user experience.
   * Worth investigating: putting professor contact info at the top of the page instead of a link
   
 ### 4. Locate class resources: 
-  * Open web browswer
+  * Open web browser
   * Enter URL
   * Click "Links" link in page navigation
   
@@ -77,13 +77,13 @@ This section lists improvement to be made for each page to address the problems 
   * Include links to GitHub for labs and to the "Projects" page for projects. This might mean that labs need to be added to the projects page to form an "Assignments" page. 
 
 ### 2. Projects page
-  * Make projects collapsable and expandable
-  * Make inner project information collapsable and expandable 
+  * Make projects collapsible and expandable
+  * Make inner project information collapsible and expandable 
   * Include dates on deliverables. Yes, this will be slightly redundant, but in a useful way, not in an obtrusive way. 
   * Similarly, include a link to the class GitHub and Basecamp at the top. 
   
 ### 3. Syllabus
-  * Make all sections collapsable and expandable to reduce the large amount of text users have to scroll through.
+  * Make all sections collapsible and expandable to reduce the large amount of text users have to scroll through.
   * Rearrange the order of some sections. For example, put the class day/time/location at the top of the page rather than buried in the middle. 
   * Include links for the textbooks
   * Remove essentially empty sections like "Quizzes", "Examinations", etc. 
@@ -94,6 +94,8 @@ This section lists improvement to be made for each page to address the problems 
   * The site is very blocky and rectangular, we could try using color or some rounded edges to soften it up
   * Many parts of the website are not as mobile-friendly as they could or should be, we need to develop it mobile-first
   * The site is screaming for more functionality. For example, adding due dates to a personal calendar. Let's think of more ways we can make the site USEful, not just a text resource. 
+  * Make a mobile friendly calendar that allows student to add the option to set reminders so that you don't miss assignments and due dates.
+  * Allow the students to link the calendar to their own calendar and get automatic updates to any changes that are made. For example, add a login for the students to link their student accounts to the calendar.
   * The links section is good but there is so much more we could add. For example, the Google color theory website. 
 
   
