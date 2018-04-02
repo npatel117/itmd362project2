@@ -52,8 +52,8 @@ html {
   font-family: "Depot New W00", Helvetica, Arial, sans-serif;
   padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
-  background-color: #E6ECD2;
-  color: #59453C;
+  background-color: #C1F6FF;
+  color: #607B7F;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -122,7 +122,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #93A341;
+  background-color: #5DBDCC;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
 }
@@ -141,7 +141,7 @@ h4 {
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #93A341; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #5DBDCC; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
   position: absolute;
@@ -202,7 +202,7 @@ nav {
   line-height: 1;
   padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
   color: #333;
-  background-color: #93A341;
+  background-color: #5DBDCC;
   border-bottom: 0;
 }
 
@@ -256,7 +256,7 @@ nav {
 }
 
 .preview {
-  background-color: #93A341;
+  background-color: #5DBDCC;
   color: #222;
   padding-top: 1.2631578947em;
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
@@ -274,7 +274,7 @@ nav {
   margin-left: -11.3208%;
 }
 .preview .assigned {
-  background-color: #59453C;
+  background-color: #607B7F;
   color: #EEE;
 }
 .preview .assigned small {
@@ -306,11 +306,11 @@ table {
   margin-bottom: 1em;
 }
 table, th, td {
-	border: 1px solid #59453C;
+	border: 1px solid #607B7F;
 	padding: 0px 10px;
 }
 .tablehead {
-	background-color: #93A341;
+	background-color: #5DBDCC;
 	text-align: center;
   font-weight: 700;
 }
