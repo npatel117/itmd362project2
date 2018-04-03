@@ -49,11 +49,12 @@ summary {
 */
 
 html {
-  font-family: "Depot New W00", Helvetica, Arial, sans-serif;
+  font-family: Quicksand, Oxygen, PT Sans, sans-serif;
   padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
-  background-color: #C1F6FF;
-  color: #607B7F;
+  background-color: #DEFFF6;
+  color: #51615C;
+  
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -74,11 +75,13 @@ ins {
 /* Links */
 a {
   text-decoration: none;
-  color: #567448;
+  color: #465F58;
   border-bottom: 0.05263157895em dotted;
+  font-weight: bold;
 }
 .preview a {
-  color: #FFCE0B;
+  color: #465F58;
+  font-weight: bold;
 }
 p {
   padding-bottom: 1.2631578947em;
@@ -122,7 +125,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #5DBDCC;
+  background-color: #51615C;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
 }
