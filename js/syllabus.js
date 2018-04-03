@@ -1,3 +1,5 @@
+//js accordion code obtained from: https://webdesignledger.com/best-practices-accordions-in-web-design/#f894c2e8a8
+//code is open source and freely given by the author
 //uses classList, setAttribute, and querySelectorAll
 //if you want this to work in IE8/9 youll need to polyfill these
 (function(){
