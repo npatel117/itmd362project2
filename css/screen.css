@@ -52,8 +52,8 @@ html {
   font-family: "Depot New W00", Helvetica, Arial, sans-serif;
   padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
-  background-color: #E6ECD2;
-  color: #59453C;
+  background-color: #C1F6FF;
+  color: #607B7F;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -122,7 +122,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #93A341;
+  background-color: #5DBDCC;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
 }
@@ -141,7 +141,7 @@ h4 {
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #93A341; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #5DBDCC; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
   position: absolute;
@@ -202,7 +202,7 @@ nav {
   line-height: 1;
   padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
   color: #333;
-  background-color: #93A341;
+  background-color: #5DBDCC;
   border-bottom: 0;
 }
 
@@ -256,7 +256,7 @@ nav {
 }
 
 .preview {
-  background-color: #93A341;
+  background-color: #5DBDCC;
   color: #222;
   padding-top: 1.2631578947em;
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
@@ -274,7 +274,7 @@ nav {
   margin-left: -11.3208%;
 }
 .preview .assigned {
-  background-color: #59453C;
+  background-color: #607B7F;
   color: #EEE;
 }
 .preview .assigned small {
@@ -306,11 +306,11 @@ table {
   margin-bottom: 1em;
 }
 table, th, td {
-	border: 1px solid #59453C;
+	border: 1px solid #607B7F;
 	padding: 0px 10px;
 }
 .tablehead {
-	background-color: #93A341;
+	background-color: #5DBDCC;
 	text-align: center;
   font-weight: 700;
 }
@@ -385,6 +385,129 @@ td {
   display: block;
   margin: 0 auto;
   width: 70%;
+}
+
+/*Syllabus*/
+.collapseHeader {
+  color: #FFFFFF;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+.accordion dl,
+.accordion-list {
+   border:1px solid #ddd;
+   &:after {
+       content: "";
+       display:block;
+       height:1em;
+       width:100%;
+       background-color:darken(#5DBDCC, 10%);
+     }
+}
+
+.accordion dd,
+.accordion__panel {
+   background-color:#eee;
+   font-size:1em;
+   line-height:1.5em; 
+}
+
+.accordion p {
+  padding:1em 2em 1em 2em;
+}
+
+.accordion {
+    position:relative;
+    background-color:#eee;
+}
+
+.accordionTitle,
+.accordion__Heading {
+ background-color:#5DBDCC; 
+   text-align:center;
+     font-weight:700; 
+          padding:2em;
+          display:block;
+          text-decoration:none;
+          color:#fff;
+          transition:background-color 0.5s ease-in-out;
+  border-bottom:1px solid darken(#5DBDCC, 5%);
+  &:before {
+   content: "+";
+   font-size:1.5em;
+   line-height:0.5em;
+   float:left; 
+   transition: transform 0.3s ease-in-out;
+  }
+  &:hover {
+    background-color:darken(#5DBDCC, 10%);
+  }
+}
+
+.accordionTitleActive, 
+.accordionTitle.is-expanded {
+   background-color:darken(#5DBDCC, 10%);
+    &:before {
+     
+      transform:rotate(-225deg);
+    }
+}
+
+.accordionItem {
+    height:auto;
+    overflow:hidden; 
+    //SHAME: magic number to allow the accordion to animate
+    
+     max-height:50em;
+    transition:max-height 1s;   
+ 
+    
+    @media screen and (min-width:48em) {
+         max-height:15em;
+        transition:max-height 0.5s
+        
+    }
+    
+   
+}
+ 
+.accordionItem.is-collapsed {
+    max-height:0;
+}
+.no-js .accordionItem.is-collapsed {
+  max-height: auto;
+}
+.animateIn {
+     animation: accordionIn 0.45s normal ease-in-out both 1; 
+}
+.animateOut {
+     animation: accordionOut 0.45s alternate ease-in-out both 1;
+}
+
+@keyframes accordionIn {
+  0% {
+    opacity: 0;
+    transform:scale(0.9) rotateX(-60deg);
+    transform-origin: 50% 0;
+  }
+  100% {
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
+@keyframes accordionOut {
+    0% {
+       opacity: 1;
+       transform:scale(1);
+     }
+     100% {
+          opacity:0;
+           transform:scale(0.9) rotateX(-60deg);
+       }
 }
 
 /* ========== State ========== */
