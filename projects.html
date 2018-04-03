@@ -32,25 +32,41 @@
     <main>
       <section class="primary">
         <h2 class="label">Major Projects</h2>
-        <article>
-          <div class="projlist">
-            <input class="projinput" id="list1" name="list1" type="checkbox" />
-            <label class="projlabel" for="list1">Project One: Onboarding</label>
-            <article class="projtext">
-              <div class="projsub">
-                <input class="projinput" id="list2" name="list2" type="checkbox" />
-                <label class="projlabel" for="list2">Project Description</label>
-                <article class="projsubtext">
-                <p>
-                  You will create a single-page design that features a sign-up process to get new
-                  users to join some type of project, such as an email list, a software beta test, or an
-                  open-source community. Focus on designing for an effortless, engaging entry of personal
-                  information; and friendly, frictionless client-side tests and alerts for malformed,
-                  missing, or incomplete information. The goal of this project is to experiment with
-                  patterns of interaction that persuade someone to sign up for whatever it is you’re
-                  offering, which is not at all an easy task.
-                </p>
-                </article>
+          <div class="accordion">
+            <section id="projects">
+              <dl>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">Project One: Onboarding</a>
+                  </dt>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">Project Description</a>
+                  </dt>
+                <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">                
+                  <p>
+                    You will create a single-page design that features a sign-up process to get new
+                    users to join some type of project, such as an email list, a software beta test, or an
+                    open-source community. Focus on designing for an effortless, engaging entry of personal
+                    information; and friendly, frictionless client-side tests and alerts for malformed,
+                    missing, or incomplete information. The goal of this project is to experiment with
+                    patterns of interaction that persuade someone to sign up for whatever it is you’re
+                    offering, which is not at all an easy task.
+                  </p>
+                </dd>
+              </dl>
+              <dl>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">Project Goals</a>
+                  </dt>
+                <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">                
+                  <ul>
+                      <li>Create a touch-friendly, mobile-first responsive web design</li>
+                      <li>Experiment with design and interaction patterns for pleasing user experience</li>
+                      <li>Design progressively enhanced page using at least two media queries</li>
+                      <li>Apply design principles including typography, color, and material design</li>
+                      <li>Engage in agile, iterative development; documented with plenty of commit comments</li>
+                    </ul>
+                </dd>
+              </dl>
               </div>
               <div class="projsub">
                 <input class="projinput" id="list3" name="list3" type="checkbox" />
