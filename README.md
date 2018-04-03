@@ -21,7 +21,7 @@ First Deliverable: Whole Team: Create a Basecamp post describing your work in pr
 Second Deliverable: Whole Team: Update your project 2 Basecamp post with the URL to your group GitHub repository, live link (GitHub pages), and two questions eliciting feedback from fellow students.
 Comments: Individual: Give constructive comments to help at least three other teams.
 
-Final Deliverable:Whole Team: Revise your team Basecamp post under Project 2 to add links to each member's individual fork of the group GitHub repository. Individual forks should include README.md files with following:
+Final Deliverable: Whole Team: Revise your team Basecamp post under Project 2 to add links to each member's individual fork of the group GitHub repository. Individual forks should include README.md files with following:
 A 3-4 sentence self-critique memo of your project and your progress in class to this point.
 
 # Requirements
