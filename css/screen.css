@@ -404,7 +404,7 @@ td {
        display:block;
        height:1em;
        width:100%;
-       background-color:darken(#38cc70, 10%);
+       background-color:darken(#5DBDCC, 10%);
      }
 }
 
@@ -426,7 +426,7 @@ td {
 
 .accordionTitle,
 .accordion__Heading {
- background-color:#38cc70; 
+ background-color:#5DBDCC; 
    text-align:center;
      font-weight:700; 
           padding:2em;
@@ -434,7 +434,7 @@ td {
           text-decoration:none;
           color:#fff;
           transition:background-color 0.5s ease-in-out;
-  border-bottom:1px solid darken(#38cc70, 5%);
+  border-bottom:1px solid darken(#5DBDCC, 5%);
   &:before {
    content: "+";
    font-size:1.5em;
@@ -443,13 +443,13 @@ td {
    transition: transform 0.3s ease-in-out;
   }
   &:hover {
-    background-color:darken(#38cc70, 10%);
+    background-color:darken(#5DBDCC, 10%);
   }
 }
 
 .accordionTitleActive, 
 .accordionTitle.is-expanded {
-   background-color:darken(#38cc70, 10%);
+   background-color:darken(#5DBDCC, 10%);
     &:before {
      
       transform:rotate(-225deg);
