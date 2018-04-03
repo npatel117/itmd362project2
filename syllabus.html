@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="css/screen.css" media="screen" />
   <link rel="icon" type="image/x-icon" href="http://web.iit.edu/sites/web/themes/iit_web/favicon.ico">
-  <script src="js/jquery.js"</script>
+  <script src="js/jquery.js"></script>
+  <script src="js/syllabus.js"></script>
 </head>
 <body>
   <div id="page">
@@ -30,8 +31,13 @@
     <main id="content">
       <article class="primary">
         <h2 class="label">Syllabus</h2>
+        <div class="accordion">
         <section id="general">
-          <h3>Course Catalog Description</h3>
+        <dl>
+              <dt>
+                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">Course Catalog Description</a>
+              </dt>
+          <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
           <p>
             Students in this course will learn the importance of 
             human-computer interaction design and the effectiveness of user-centered design. The 
@@ -41,7 +47,10 @@
             engineering, and students will apply knowledge from the field in the design and 
             construction of user-centered Web sites. 
           </p>
-          <h3>Course Outcomes</h3>
+          </dd>
+        </dl>
+        </div>
+          <h3 class="collapseHeader">Course Outcomes</h3>
           <p>
             Students completing this course will learn to:
           </p>
@@ -54,7 +63,7 @@
             <li>Describe and execute touch-friendly, mobile-first responsive web design.</li>
             <li>Understand and apply core theories from human-computer interaction to web design and development.</li>
           </ul>
-          <h3>Course Objectives</h3>
+          <h3 class="collapseHeader">Course Objectives</h3>
           <p>At the conclusion of this course, successful students will be able to:</p>
           <ul class="indent">
             <li>Recall, describe and apply principles of user-centered design.</li>
@@ -68,14 +77,14 @@
           </ul>
         </section>
         <section id="location">
-          <h3>Lecture Days, Time, &amp; Place</h3>
+          <h3 class="collapseHeader">Lecture Days, Time, &amp; Place</h3>
           <p>Tuesdays 6:25pm to 9:05pm</p>
           <p>Robert A. Pritzker Science Center, Room 121</p>
           <p>3105 S Dearborn St, Chicago, IL 60616</p>
           <p>Or online via IIT Online</p>
         </section>
         <section id="overview">
-          <h3>Course Overview</h3>
+          <h3 class="collapseHeader">Course Overview</h3>
           <p>
             This course favors a mobile-first approach to web design and development, with special attention to the 
             challenges of designing touch-screen interfaces. Students will learn development methods based on prototyping 
@@ -88,11 +97,11 @@
           </p>
         </section>
         <section id="schedule">
-          <h3>Schedule of Topics&#x2215;Readings</h3>
+          <h3 class="collapseHeader">Schedule of Topics&#x2215;Readings</h3>
           <p>See <a href="index.html">Calender</a></p>
         </section>
         <section id="materials">
-          <h3>Textbook&#x28;s&#x29;</h3>
+          <h3 class="collapseHeader">Textbook&#x28;s&#x29;</h3>
           <section id="books">
             <p>
               The follwing books are required for this course. Retail price tag for the entire course
@@ -109,7 +118,7 @@
             </ul>
           </section>
           <section id="technologies">
-            <h3>Technology Requirements</h3>
+            <h3 class="collapseHeader">Technology Requirements</h3>
             <ul class="indent">
               <li>An email account and personal computer</li>
               <li>A Basecamp account (invite will be sent to your IIT email);
@@ -139,7 +148,7 @@
           </section>
         </section>
         <section id="readings">
-          <h3>Readings &#x2215; Videos</h3>
+          <h3 class="collapseHeader">Readings &#x2215; Videos</h3>
           <p>
             Readings for the class will be assigned from the textbooks as well as in the form of 
             on-line readings. On-line resources and videos will be linked from or embedded in a 
@@ -150,7 +159,7 @@
           </P>
         </section>
         <section id="notes">
-          <h3>Course Notes</h3>
+          <h3 class="collapseHeader">Course Notes</h3>
           <p>
             PDF copies of the course lectures will be provided for each student on Basecamp. 
             This should be useful if you must miss a class. You should be aware that note taking is 
@@ -158,29 +167,29 @@
           </p>
         </section>
         <section id="websites">
-        <h3>Course Web Site&#40;s&#41;</h3>
+        <h3 class="collapseHeader">Course Web Site&#40;s&#41;</h3>
           <p>https://dkriegls.github.io/itmd-362-spring2018/</p>
         </section>
          <section id="blackboard">
-          <h3>Blackboard</h3>
+          <h3 class="collapseHeader">Blackboard</h3>
           <p>
             This class will only use Blackboard to communicate student grades. All other class material 
             will be distributed via Basecamp. 
           </p>
         </section>
         <section id="guests">
-        <h3>Guest Lectures</h3>
+        <h3 class="collapseHeader">Guest Lectures</h3>
           <p>There will not be any guest lectures in this class</p>
         </section>
         <section id="Attendance">
-        <h3>Attendance</h3>
+        <h3 class="collapseHeader">Attendance</h3>
           <p>
             Attendance to live lectures is not required in this class. Students are responsible for watching class videos
             in a timely manner before assignments are due.
           </p>
         </section>         
         <section id="assignments">
-          <h3>Assignments</h3>
+          <h3 class="collapseHeader">Assignments</h3>
           <p>
             All major projects for this course will be submitted via Basecamp.
             Submissions should <b>not</b> include attachments, but rather URLs
@@ -202,19 +211,19 @@
             This means polite give-and-take discussions of code. Do not discuss anything else on basecamp. Practice professional and supportive critiquing. 
         </section>
         <section id="quizzes">
-        <h3>Quizzes</h3>
+        <h3 class="collapseHeader">Quizzes</h3>
           <p>There will not be any quizzes in this class</p>
         </section>
           <section id="examinations">
-        <h3>Examinations</h3>
+        <h3 class="collapseHeader">Examinations</h3>
           <p>There will not be any examinations in this class</p>
         </section> 
         <section id="extra-credit">
-        <h3>Extra-Credit</h3>
+        <h3 class="collapseHeader">Extra-Credit</h3>
           <p>There will not be any extra credit in this class</p>
         </section>
         <section id="academic-honesty">
-          <h3>Academic Honesty</h3>
+          <h3 class="collapseHeader">Academic Honesty</h3>
           <p>
             As with any course at IIT, you are expected to uphold
             <a href="https://web.iit.edu/student-affairs/handbook/fine-print/code-academic-honesty">the Code of Academic Honesty</a>
@@ -238,7 +247,7 @@
           </p>
         </section>
               <section id="grading">
-          <h3>Grading</h3>
+          <h3 class="collapseHeader">Grading</h3>
           <h4>The final grade for the class will be calculated as follows:</h4>
           <table>
             <tr>
@@ -278,11 +287,11 @@
           <p>E =&lt; 60 points</p>
         </section>   
         <section id="other">
-        <h3>Other Class Resources</h3>
+        <h3 class="collapseHeader">Other Class Resources</h3>
           <p>All course work can be found through the class website</p>
         </section>      
         <section id="our-contract">
-        <h3>Our Contract</h3>
+        <h3 class="collapseHeader">Our Contract</h3>
           <p>
             This syllabus is my contract with you as to what I will deliver and what I expect from you. 
             If I change the syllabus, I will issue a revised version of the syllabus; the latest version will 
@@ -290,7 +299,7 @@
           </p>
         </section> 
         <section id="special-needs">
-          <h3>Special Needs Statement</h3>
+          <h3 class="collapseHeader">Special Needs Statement</h3>
           <p>
             I place a very high value on developing courses that are welcoming and accessible to all
             students. I will make additional reasonable accommodations for students with documented
@@ -306,8 +315,7 @@
             at the start of the semester or as a documented difficulty arises. Methods, materials,
             or deadlines will be adapted as necessary to ensure equitable participation for all
             students.
-          </p>
-        </section>
+          </p>  
       </article>
     </main>
     <footer id="footer">
