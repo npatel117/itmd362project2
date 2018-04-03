@@ -400,7 +400,7 @@ td {
   transition: background-color .15s ease-in-out;
 }
 
-.projinput:checked + label, .ac-label:hover {
+.projinput:checked + label, .projlabel:hover {
   background-color: #999;
 }
 
