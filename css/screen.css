@@ -414,6 +414,7 @@ td {
    font-size:1em;
    line-height:1.5em; 
 }
+
 .accordion p {
   padding:1em 2em 1em 2em;
 }
@@ -485,6 +486,7 @@ td {
 .animateOut {
      animation: accordionOut 0.45s alternate ease-in-out both 1;
 }
+
 @keyframes accordionIn {
   0% {
     opacity: 0;
