@@ -59,4 +59,3 @@ switchAccordion = function(e) {
     accordionToggles[i].addEventListener('click', switchAccordion, false);
   }
 })();
-})();
