@@ -120,6 +120,7 @@ h2 {
   font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
   line-height: 0.9398128206em; /* ~ 24px @ 25.537px/em */
   padding-bottom: 0.9398128206em;
+  font-weight: bold;
 }
 
 h3 {
