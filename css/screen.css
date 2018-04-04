@@ -562,13 +562,13 @@ td {
 .accordionItem {
   height: auto;
   overflow: hidden;
-  SHAME: magic number to allow the accordion to animate;
-  max-height: auto;
+  /*SHAME: magic number to allow the accordion to animate;*/
+  max-height: none;
   transition: max-height 1s;
 }
 @media screen and (min-width: 48em) {
   .accordionItem {
-    max-height: auto;
+    max-height: none;
     transition: max-height 0.5s;
   }
 }
@@ -578,7 +578,7 @@ td {
 }
 
 .no-js .accordionItem.is-collapsed {
-  max-height: auto;
+  max-height: none;
 }
 
 .animateIn {
