@@ -1,5 +1,8 @@
 # itmd362project2
 
+# Self-Critique
+This class project was gained me nice experience of working in group. We all had some skills to bring to this project. I had the syllabus page to work on. Our team had hard time figuring out the CSS behind the collapsing menu and at the end it came out really well. I wasn't that good with CSS and I learned a lot about good ideas like collapsing menu, google calendar with the abilities to sync with your phone calendar, mobile friendly interface and still able to read clearly. I also learned about javascript and to look into minor details in a website like the color contrast. 
+
 # PROJECT TWO: REDESIGN THIS WEBSITE!
 
 # Project Description
